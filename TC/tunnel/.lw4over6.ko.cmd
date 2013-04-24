@@ -1,0 +1,1 @@
+cmd_/home/xsc/lightweight4over6-master/TC/tunnel/lw4over6.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-2.6.32-38-generic/scripts/module-common.lds --build-id -o /home/xsc/lightweight4over6-master/TC/tunnel/lw4over6.ko /home/xsc/lightweight4over6-master/TC/tunnel/lw4over6.o /home/xsc/lightweight4over6-master/TC/tunnel/lw4over6.mod.o

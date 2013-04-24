@@ -1,0 +1,33 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.2.3-P2
+
+server-duid "\000\001\000\001\031\012\251\237\010\000'\374\362c";
+
+lease 10.105.244.2 {
+  starts 3 2013/04/24 14:35:11;
+  ends 3 2013/04/24 14:45:11;
+  cltt 3 2013/04/24 14:35:11;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 98:4b:e1:a5:70:a2;
+  client-hostname "xsc-laptop";
+}
+lease 10.105.244.2 {
+  starts 3 2013/04/24 14:40:11;
+  ends 3 2013/04/24 14:50:11;
+  cltt 3 2013/04/24 14:40:11;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 98:4b:e1:a5:70:a2;
+  client-hostname "xsc-laptop";
+}
+lease 10.105.244.2 {
+  starts 3 2013/04/24 14:40:11;
+  ends 3 2013/04/24 14:50:11;
+  tstp 3 2013/04/24 14:50:11;
+  cltt 3 2013/04/24 14:40:11;
+  binding state free;
+  hardware ethernet 98:4b:e1:a5:70:a2;
+}

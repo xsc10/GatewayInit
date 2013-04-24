@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd tunnel
+./load
+cd ../dhcp/server/
+./open4v6-eth0.sh

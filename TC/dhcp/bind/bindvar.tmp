@@ -1,0 +1,2 @@
+binddir=/home/xsc/lightweight4over6-master/TC/dhcp/bind
+GMAKE=make
